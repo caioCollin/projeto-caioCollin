@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url("/img/bn.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.soon{
+    display: flex;
+    font-size: 13px;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 10px; 
+    justify-content: space-between;   
+}
+.link{
+    margin: 0px 50px 0 50px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;     
+}
+.link:hover{
+    color: rgb(199, 23, 219);
+}
+form{
+    margin: auto 30%;
+    margin-top: 200px;
+    max-width: 700px;   
+}
+#title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);   
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.material-icons{
+    padding: 20px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;   
+}
+.input-field{
+    width: 100%;
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    background: dodgerblue;
+    color: white; 
+    border: none;
+    border-radius: 100px;   
+    transition: 2s;  
+    margin-top: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.btn:hover{
+    background-image: url("img/bn.jpg");
+    background-size: cover;
+    border: none; 
+    cursor: pointer;    
+}
