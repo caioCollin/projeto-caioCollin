@@ -1,3 +1,0 @@
-digite nome
-digite senha 
-digite email
